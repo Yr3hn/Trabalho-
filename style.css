@@ -1,0 +1,73 @@
+body {
+    height: 100vh; 
+    background: linear-gradient(to bottom, black, rgb(97, 96, 96)); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    padding: 30px; 
+    background-color: gray
+}
+
+.lista li {
+    margin: 0 200px; 
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+a:hover {
+    color: rgb(184, 184, 184);
+    transform: scale(1.1);
+    display: inline-block;
+    transition: .2s;
+}
+
+div.comeco {
+    color: aliceblue;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.pe {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
+}
+
+.menu {
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 40px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: aliceblue;
+    font-size: x-large;
+    padding-top: 150px;
+}
+
